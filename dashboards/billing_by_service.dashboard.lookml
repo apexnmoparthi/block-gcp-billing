@@ -163,11 +163,11 @@
         value_format: !!null '', value_format_name: decimal_2, _kind_hint: measure,
         _type_hint: number}, {table_calculation: total_cost_of_project, label: Total
           Cost of Project, expression: 'sum(if(${gcp_billing_export_service.service_compare},
-          ${gcp_billing_export.total_cost}, 0))', value_format: !!null '', value_format_name: eur,
+          ${gcp_billing_export.total_cost}, 0))', value_format: !!null '', value_format_name: usd,
         _kind_hint: measure, _type_hint: number}, {table_calculation: total_credit_applied_to_project,
         label: Total Credit Applied to Project, expression: 'sum(if(${gcp_billing_export_service.service_compare},
           ${gcp_billing_export_credits.total_credit}, 0))', value_format: !!null '',
-        value_format_name: eur, _kind_hint: measure, _type_hint: number}]
+        value_format_name: usd, _kind_hint: measure, _type_hint: number}]
     query_timezone: America/Los_Angeles
     custom_color_enabled: true
     custom_color: ''
