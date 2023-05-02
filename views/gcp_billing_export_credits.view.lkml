@@ -32,9 +32,9 @@ view: gcp_billing_export_credits {
     value_format_name: decimal_2
     html: {% if gcp_billing_export.currency._value == 'GBP' %}
             <a href="{{ link }}"> £{{ rendered_value }}</a>
-          {% elsif gcp_billing_export.currency == 'USD' %}
+          {% elsif gcp_billing_export.currency._value == 'USD' %}
             <a href="{{ link }}"> ${{ rendered_value }}</a>
-          {% elsif gcp_billing_export.currency == 'EUR' %}
+          {% elsif gcp_billing_export.currency._value == 'EUR' %}
             <a href="{{ link }}"> €{{ rendered_value }}</a>
           {% else %}
             <a href="{{ link }}"> {{ rendered_value }} {{ gcp_billing_export.currency._value }}</a>
