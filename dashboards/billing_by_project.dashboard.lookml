@@ -237,7 +237,8 @@
     custom_color: ''
     show_single_value_title: true
     single_value_title: Total Cost after Credits
-    value_format: '$#,##0.00'
+    value_format: ''
+    value_format_name: usd
     show_comparison: true
     comparison_type: value
     comparison_reverse_colors: false
