@@ -39,7 +39,7 @@
     column_limit: 50
     dynamic_fields: [{table_calculation: previous_30_days, label: Previous 30 Days,
         expression: 'offset(${gcp_billing_export.total_cost}, 30)', value_format: !!null '',
-        value_format_name: eur, _kind_hint: measure, _type_hint: number}]
+        value_format_name: usd, _kind_hint: measure, _type_hint: number}]
     query_timezone: America/Los_Angeles
     x_axis_gridlines: false
     y_axis_gridlines: true
