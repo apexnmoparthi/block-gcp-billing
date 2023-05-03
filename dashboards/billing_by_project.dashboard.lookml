@@ -1,4 +1,4 @@
-- dashboard: billing_by_project
+- dashboard: gcp_billing_by_project
   preferred_viewer: dashboards-next
   title: Billing By Project
   layout: newspaper
