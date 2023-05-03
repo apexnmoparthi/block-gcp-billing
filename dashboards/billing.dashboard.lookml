@@ -1,4 +1,4 @@
-- dashboard: billing
+- dashboard: gcp_billing
   preferred_viewer: dashboards-next
   title: Billing
   layout: newspaper
